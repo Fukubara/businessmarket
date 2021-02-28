@@ -1,0 +1,48 @@
+.logotopo{
+    position: absolute;
+    top: 1rem;
+    left: 6.6rem;
+}
+
+.info {
+    position: absolute;
+    width: 13.5rem;
+    height: 3.75rem;
+    right: 8.1rem;
+    top: 3.3rem;
+    cursor: pointer;
+
+    background: linear-gradient(360deg, #1D737E -74.42%, #4FB9C7 154.17%);
+    border: none;
+    border-radius: 3.6rem;
+
+    &:focus{
+        outline: none;
+    }
+    
+    span{
+        width: 9.8rem;
+        height: 3.6rem;
+        font-family: "Source Sans Pro" sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1rem;
+        line-height: 428.2%;
+        /* or 64px */
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+
+        color: #C2FF01;
+    }
+}
+
+.menu{
+    position: absolute;
+    width: 42.09px;
+    height: 24.58px;
+    right: 43px;
+    top: 68.64px;
+
+    background: none;
+    border: none;
+}

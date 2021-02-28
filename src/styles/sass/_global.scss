@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #FFFFFF;
+}
+
+@media (max-width: 1080px) {
+    html {
+      font-size: 87.5%;
+    }
+  }
+  
+@media (max-width: 720px) {
+    html {
+        font-size: 81.25%;
+    }
+}
+
+.paragraph{
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 180%;
+
+    margin: 2.5rem 0;
+}

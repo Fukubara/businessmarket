@@ -1,0 +1,54 @@
+.grid2container{
+    display: flex;
+    flex-direction: row;
+    
+
+    .leftcontainer{
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+        background: linear-gradient(59.46deg, #1D737E -67.96%, #4FB9C7 103.75%);
+        padding: 3rem;
+
+        p{ 
+            padding-left: 6rem; 
+            color: #FFFFFF;
+        }
+
+        & > p:first-child{
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: bold;
+            font-size: 2rem;
+            line-height: 155.5%;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+        }
+
+        & > p:last-child{
+            font-family: 'Fira Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 180%;
+
+            span{ color: #C2FF01; }
+        }
+    }
+
+    .rightcontainer{
+        background-color: #000000;
+
+        .table{
+            span{
+                color: #C2FF01;
+                font-size: 2rem;
+                font-family: 'Oswald';
+                font-weight: 700;
+            }
+
+
+        }
+    }
+}

@@ -1,0 +1,67 @@
+.gridcontainer{
+    .topcontainer{
+        background: url("../../../public/imagem03.png");
+        display: flex;
+        flex-direction: row;
+        color: white;
+        padding-bottom: 2rem;
+
+        div{
+            display: flex;
+            flex-direction: row;
+            padding: 7rem 3rem 0 5rem;
+
+            img{
+                margin-right: 2rem;
+            }
+
+            p{
+                font-family: 'Oswald';
+                font-style: normal;
+                font-weight: bold;
+                font-size: 1.5rem;
+                line-height: 155.5%;
+                letter-spacing: 0.1em;
+                text-transform: uppercase;
+                padding-top: 0.8rem;
+            }
+        }
+
+        & > p{
+            width: 33rem;
+            padding-top: 5rem;
+        }
+    }
+
+    .middlecontainer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 2rem 0;
+        margin: 0 8rem;
+
+
+
+        div{
+            display: flex;
+            flex-direction: row;
+
+            p{
+                font-family: 'Oswald';
+                font-size: 1.5rem;
+                font-weight: 700;
+                line-height: 155.5%;
+                letter-spacing: 0.1em;
+                text-transform: uppercase;
+                padding-top: 0.8rem;
+                text-align: right;
+                width: 21rem;
+            }
+
+            img{
+                width: 10rem;
+                height: 10rem;
+            }
+        }
+    }
+}
